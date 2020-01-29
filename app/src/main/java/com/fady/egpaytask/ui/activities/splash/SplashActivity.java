@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.fady.egpaytask.R;
 import com.fady.egpaytask.ui.activities.base.BaseActivity;
 
-public class SplashActivity extends BaseActivity implements SplashActivityInter {
+public class SplashActivity extends BaseActivity implements SplashActivityInterface {
 
     private SplashActivityPresenter presenter;
 
@@ -18,7 +18,7 @@ public class SplashActivity extends BaseActivity implements SplashActivityInter 
     @Override
     protected void onViewReady(Bundle savedInstanceState, Intent intent) {
         super.onViewReady(savedInstanceState, intent);
-        presenter = new SplashActivityPresenter(this);
+        presenter = new SplashActivityPresenter(this, this);
         presenter.navigate();
     }
 

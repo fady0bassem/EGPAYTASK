@@ -1,6 +1,6 @@
 package com.fady.egpaytask.ui.activities.splash;
 
-public interface SplashActivityInter {
+public interface SplashActivityInterface {
 
     void openMainActivity();
 }

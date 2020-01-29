@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EGPAY TASK</string>
+
+    <string name="done">تم</string>
 </resources>

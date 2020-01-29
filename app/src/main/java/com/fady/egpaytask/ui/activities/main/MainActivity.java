@@ -1,8 +1,10 @@
-package com.fady.egpaytask;
+package com.fady.egpaytask.ui.activities.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.fady.egpaytask.R;
 
 public class MainActivity extends AppCompatActivity {
 

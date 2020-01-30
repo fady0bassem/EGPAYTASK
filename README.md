@@ -1,5 +1,7 @@
 # EGPAYTASK
-Implementation of a simple input activity using MVP pattern, 
+Implementation of a simple input activity using MVP pattern.
+
+![](task_tut.gif)
 
 ## SPECEFICATIONS
 -	Create an activity, dynamically from the JSON file provided (data.json) in run time.
@@ -37,5 +39,3 @@ Implementation of a simple input activity using MVP pattern,
 - JSON Parsing using GSON
 - OKHTTP
 - Scalling using sdp
-
-![](task_tut.gif)

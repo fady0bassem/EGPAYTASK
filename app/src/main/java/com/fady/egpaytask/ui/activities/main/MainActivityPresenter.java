@@ -101,12 +101,7 @@ class MainActivityPresenter {
             linearlayout.addView(view);
         }
 
-        linearlayout.addView(CreateButton.CreateButton(context, context.getResources().getString(R.string.done), new ButtonClickInterface() {
-            @Override
-            public void onClick(Boolean value) {
-                getData(toGson(loadJSONFromAsset()), views);
-            }
-        }));
+        linearlayout.addView(CreateButton.CreateButton(context, context.getResources().getString(R.string.done), value -> getData(toGson(loadJSONFromAsset()), views)));
     }
 
     void getData(ArrayList<DataModel> dataModels, List<View> views) {

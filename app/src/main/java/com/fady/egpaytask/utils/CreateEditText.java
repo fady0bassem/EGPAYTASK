@@ -96,6 +96,7 @@ public class CreateEditText extends AppCompatActivity {
             SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.ENGLISH);
 
             editText.setText(sdf.format(myCalendar.getTime()));
+            editText.setError(null);
         };
 
         new DatePickerDialog(context, date, myCalendar.get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),

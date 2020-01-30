@@ -37,3 +37,5 @@ Implementation of a simple input activity using MVP pattern,
 - JSON Parsing using GSON
 - OKHTTP
 - Scalling using sdp
+
+![](task_tut.gif)

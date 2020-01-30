@@ -92,7 +92,7 @@ public class CreateEditText extends AppCompatActivity {
             myCalendar.set(Calendar.YEAR, year);
             myCalendar.set(Calendar.MONTH, monthOfYear);
             myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-            String myFormat = "dd/MM/yyyy";
+            String myFormat = "yyyy-mm-dd";
             SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.ENGLISH);
 
             editText.setText(sdf.format(myCalendar.getTime()));

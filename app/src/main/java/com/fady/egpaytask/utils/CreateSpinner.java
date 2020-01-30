@@ -3,7 +3,6 @@ package com.fady.egpaytask.utils;
 import android.app.Activity;
 import android.content.Context;
 import android.view.Gravity;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
@@ -11,8 +10,8 @@ import android.widget.Spinner;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.fady.egpaytask.R;
-import com.fady.egpaytask.data.DataModel;
-import com.fady.egpaytask.data.MultipleModel;
+import com.fady.egpaytask.data.models.DataModel;
+import com.fady.egpaytask.data.models.MultipleModel;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

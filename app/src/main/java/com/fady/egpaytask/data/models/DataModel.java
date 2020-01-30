@@ -1,4 +1,4 @@
-package com.fady.egpaytask.data;
+package com.fady.egpaytask.data.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

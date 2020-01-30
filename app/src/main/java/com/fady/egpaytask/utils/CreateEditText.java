@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.fady.egpaytask.R;
-import com.fady.egpaytask.data.DataModel;
+import com.fady.egpaytask.data.models.DataModel;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

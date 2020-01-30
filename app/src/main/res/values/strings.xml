@@ -2,4 +2,12 @@
     <string name="app_name">EGPAY TASK</string>
 
     <string name="done">تم</string>
+    <string name="required">لا يمكن أن يكون هذا الحقل فارغًا</string>
+    <string name="error">خطأ</string>
+    <string name="connection_err">خطأ اثناء المحاولة بالاتصال</string>
+    <string name="NoInternetConnection">لا يوجد اتصال إنترنت.</string>
+    <string name="unkown_error">خطأ غير معروف.</string>
+    <string name="no_data">لا يوجد بيانات</string>
+    <string name="close">اغلاق</string>
+    <string name="response_success">تم بنجاح</string>
 </resources>
